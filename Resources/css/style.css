@@ -1,0 +1,62 @@
+/* Basic set up */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+section{
+    padding: 30px 0;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+.header-section{
+    padding: 30px 0;
+    height: 140vh;
+    background: url("../img/header-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top top;
+   
+}
+.dropdown-submenu{
+    margin-left: 100px;
+}
+
+.dropdown-menu{
+    background-color: rgba(0,0,0,.5);
+}
+.dropdown-item{
+    color: #fff;
+}
+.header-text{
+    width: 60%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.header-h1{
+    font-size: 75px;
+    font-weight: 300;
+}
+.header-h2{
+    font-size:30px;
+    font-weight: 400;
+}
